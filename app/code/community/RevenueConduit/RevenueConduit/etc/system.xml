@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<config>
+  <tabs>
+    <revenueconduittab translate="label" module="revenueconduit">
+      <label>Revenue Conduit</label>
+      <sort_order>100</sort_order>
+    </revenueconduittab>
+  </tabs> 
+  <sections>
+    <revenueconduit_revenueconduit_options translate="label" module="revenueconduit">
+      <label>Revenue Conduit</label>
+      <tab>revenueconduittab</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>199</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
+      <expanded>1</expanded>
+      <groups>
+        <revenueconduit_revenueconduit_settings_group translate="label">
+          <label>Revenue Conduit Settings</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>1</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
+
+          <fields>
+            <revenueconduit_app_name translate="label">
+              <label>Revenue Conduit Application Name</label>
+              <comment>The app name given to your Revenue Conduit account</comment>
+              <frontend_type>text</frontend_type>
+              <sort_order>1</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </revenueconduit_app_name>
+            <revenueconduit_store_name translate="label">
+              <label>Revenue Conduit Store Name</label>
+              <comment>The unique store name configured in your Revenue Conduit account</comment>
+              <frontend_type>text</frontend_type>
+              <sort_order>2</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </revenueconduit_store_name>
+          </fields>
+        </revenueconduit_revenueconduit_settings_group>
+      </groups>
+    </revenueconduit_revenueconduit_options>
+  </sections>
+</config>
+<!-- 
+/**
+ * RevenueConduit
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA available
+ * through the world-wide-web at this URL:
+ * http://revenueconduit.com/magento/license
+ *
+ * MAGENTO EDITION USAGE NOTICE
+ *
+ * This package is designed for Magento COMMUNITY edition.
+ * =================================================================
+ *
+ * @package    RevenueConduit
+ * @copyright  Copyright (c) 2012-2013 RevenueConduit. (http://www.revenueconduit.com)
+ * @license    http://revenueconduit.com/magento/license
+ * @terms      http://revenueconduit.com/magento/terms
+ * @author     Parag Jagdale
+ */
+-->

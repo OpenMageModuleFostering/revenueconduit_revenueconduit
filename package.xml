@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<package>
+    <name>RevenueConduit_RevenueConduit</name>
+    <version>1.0.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Connect your Magento&#x2122; store to Infusionsoft and maximize your revenue, automatically!</summary>
+    <description>&lt;p&gt;&#xD;
+Magento&#x2122; is great. Infusionsoft is great. Revenue Conduit makes them even better with a deep integration between your shopping cart and Infusionsoft, the all-in-one sales and marketing solution for small businesses.&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+Sign up for a 30 day FREE Trial and see what Revenue Conduit can do for you. Then benefit from a low monthly cost starting at $24.95 with no up-front fees or long-term commitments.&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+If you're not yet a customer of Infusionsoft, ask us about our eCommerce Optimized Kickstart, our turn-key package for nurturing prospects, converting customers and turning first-time customers into customers for life.&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Key Features&lt;/h3&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+&lt;strong&gt;Easy Installation!&lt;/strong&gt;&lt;br /&gt;&#xD;
+Simply upload a folder to your server, enter your Infusionsoft and Magento information and let Revenue Conduit do the rest. In the short-term and long-term, this will save you time and money.&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+&lt;strong&gt;Sync Leads, Customers, Products and Orders&lt;/strong&gt;&lt;br /&gt;&#xD;
+Benefit from Infusionsoft&#x2019;s amazing reporting by having all your leads, customers, products and orders synced in real time. Easily run Campaigns for leads, first time customers, repeat buyers and more!&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+&lt;strong&gt;Associate Tags with Products&lt;/strong&gt;&lt;br /&gt;&#xD;
+When someone buys your product, they automatically get all the Infusionsoft Tags associated with it. Use Tags to create list segments based on customer preferences like price, category or anything else you can think of.&#xD;
+&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+&lt;strong&gt;Automatically Upsell and Cross-Sell&lt;/strong&gt;&lt;br /&gt;&#xD;
+Using the Tags you associate with your products, automatically upsell and cross-sell through Infusionsoft. This one simply feature will help you maximize revenue, automatically. You&#x2019;re going to love it!&#xD;
+&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+&lt;strong&gt;Automatically Segment Your Customers&lt;/strong&gt;&lt;br /&gt;&#xD;
+Not all customers are created equal, and different customers deserve to be treated differently. Revenue Conduit makes it easy for you to automatically segment your customers based on the last time they bought, how many times they bought and how much they have spent. This is called RFM Segmentation, and it is a truly powerful way for you to maximize your revenue.&#xD;
+&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+&lt;strong&gt;FREE Infusionsoft Campaigns&lt;/strong&gt;&lt;br /&gt;&#xD;
+Revenue Conduit comes with FREE Infusionsoft Campaigns that you can use right away or customize to your heart&#x2019;s content. These Campaigns are essential for you to maximize your revenue, automatically!&#xD;
+&lt;/p&gt;</description>
+    <notes>1.0.2 Release</notes>
+    <authors><author><name>Parag Jagdale</name><user>RevenueConduit</user><email>parag@revenueconduit.com</email></author></authors>
+    <date>2014-07-10</date>
+    <time>15:33:04</time>
+    <contents><target name="magecommunity"><dir name="RevenueConduit"><dir name="RevenueConduit"><dir name="Helper"><file name="Data.php" hash="0a9af814ed12bb85b1be2b0cdff4c864"/></dir><dir name="Model"><dir name="Catalog"><dir name="Product"><dir name="Api"><file name="V2.php" hash="08cea5d6c1a35dffd185677aeec60306"/></dir></dir></dir><dir name="Customer"><dir name="Customer"><dir name="Api"><file name="V2.php" hash="fd835f965fd45b7bfccdb91b0a7bb90e"/></dir></dir></dir><file name="Observer.php" hash="d80d667226045639c3021b1d71b5ae06"/><dir name="Sales"><dir name="Order"><dir name="Api"><dir name="1.6"><file name="V2.php" hash="7158678bb9e973b72091290218cadc36"/></dir><file name="V2.php" hash="0893ed7f6fab56e3101e2528cec0d289"/></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="eeff576b7925beb3a10637aeb03b6de8"/></dir><dir name="etc"><file name="api.xml" hash="2f97f67ce79f587f9e5b7b7fe028693a"/><file name="config.xml" hash="9a5a3ba4f24053d18689f23cd537cb40"/><file name="system.xml" hash="78ed59ccf93c1656ed003f78482f7756"/><file name="wsdl.xml" hash="38ac019610d6f28280cb09885c8bb41c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="RevenueConduit_RevenueConduit.xml" hash="8f594907ef70890af5f90fc16dd59ca7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
