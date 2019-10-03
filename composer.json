@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/RevenueConduit_RevenueConduit",
+    "name": "OpenMageModuleFostering\/RevenueConduit_RevenueConduit",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
-    "description": "Connect your Magento™ store to Infusionsoft and maximize your revenue, automatically!",
+    "description": "Connect your Magento\u2122 store to Infusionsoft and maximize your revenue, automatically!",
     "authors": [
-    {
-        "name": "Parag Jagdale",
-        "email": "parag@revenueconduit.com"
-    }
-],
+        {
+            "name": "Parag Jagdale",
+            "email": "parag@revenueconduit.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
