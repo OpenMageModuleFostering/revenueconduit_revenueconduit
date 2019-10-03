@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/RevenueConduit_RevenueConduit",
+    "name": "openmage-module-fostering\/revenueconduit_revenueconduit",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Connect your Magento\u2122 store to Infusionsoft and maximize your revenue, automatically!",
     "authors": [
